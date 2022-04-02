@@ -48,6 +48,12 @@
   color: black;
   margin-left: 15px;
 }
+@media only screen and (max-width: 675px){
+  /*Small smartphones [325px -> 425px]*/
+    .headerLogo{
+      display: none;
+    }
+}
 .contentLogo{
   height: 50px;
 }
@@ -63,16 +69,29 @@
 .headerNav {
   display: flex;
   flex-direction: row;
+  flex-wrap:nowrap;
   justify-content: space-between;
+  align-content: flex-end;
   width: 100vw;
   min-height: 150px;
-  max-height: 200px;
+  /* max-height: 200px; */
+}
+@media only screen and (max-width: 675px){
+  /*Small smartphones [325px -> 425px]*/
+    .headerNav{
+      margin-left: 20px;
+    }
+    .header{
+      position:relative;
+      margin-left: 30px;
+    }
 }
 .headerDiv {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
+
 .homeLink:focus {
 background: radial-gradient(rgba(128, 128, 128, 0.28), transparent);
 }
@@ -86,6 +105,25 @@ background: radial-gradient(rgba(128, 128, 128, 0.28), transparent);
   min-width: 200px;
   /* position: relative; */
   /* bottom:225px; */
+}
+@media only screen and (max-width: 751px){
+  /*Small smartphones [325px -> 425px]*/
+    .navBtns{
+      margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 672px){
+  /*Small smartphones [325px -> 425px]*/
+    .navBtns{
+      margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 507px){
+  /*Small smartphones [325px -> 425px]*/
+    .navBtns{
+      position: relative;
+      right:100px;
+    }
 }
 .navBtn {
   margin: 0px;
@@ -114,6 +152,7 @@ background: radial-gradient(rgba(128, 128, 128, 0.28), transparent);
   display: flex;
   flex-direction: column;
   min-height: 100vh ;
+  min-width: 100vw;
 }
 
 .contents {
@@ -121,16 +160,15 @@ background: radial-gradient(rgba(128, 128, 128, 0.28), transparent);
   color: white;
   font-weight: bold;
   /* text-shadow: 5px 1px 0px white; */
-  width: inherit;
+  width: 100vw;
   height: 40px;
   display:flex;
   flex-direction: column;
   flex-shrink: inherit;
   align-items: center;
   justify-content: center;
-
-  size: inherit;
 }
+
 li{
   display: flex;
   flex-direction: row;
@@ -359,7 +397,6 @@ border-radius: 5px;
   border-color: white;
 }
 
-
 .content {
   width: 100vw;
   background: radial-gradient(transparent, rgba(0, 0, 0, 0.246)); 
@@ -380,13 +417,40 @@ border-radius: 5px;
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 983px){
+  /*Small smartphones [325px -> 425px]*/
+    .contents{
+      width:100vw;
+    }
+    .content {
+      width:100vw;
+    }
+}
+@media only screen and (max-width: 983px){
+  /*Small smartphones [325px -> 425px]*/
+    .contents{
+      height:75px;
+    }
+}
+@media only screen and (max-width: 675apx){
+  /*Small smartphones [325px -> 425px]*/
+  .contents{
+    height: 100px;
+
+  }
+  .content{
+    margin-left:75px;
+
+  }
+}
 
 .services{
   display: flex;
   flex-direction: column;
   margin-top: 150px;
+  width:100vw;
 }
-@media only screen and (max-width: 1200px){
+ @media only screen and (max-width: 1200px){
   /*Tablets [601px -> 1200px]*/
   .services{
     display: flex;
@@ -396,20 +460,28 @@ border-radius: 5px;
 }
 @media only screen and (max-width: 988px){
 /*Big smartphones [426px -> 892px]*/
-  .services{
+   .services{
     display: flex;
     flex-direction: column;
     margin-top: 220px;
   }
 }
-@media only screen and (max-width: 751px){
-/*Small smartphones [325px -> 425px]*/
-  .services{
+ @media only screen and (max-width: 753px){ 
+/*Small smartphones 675 [325px -> 425px]*/
+   .services{
     display: flex;
     flex-direction: column;
-    margin-top: 275px;
+    margin-top: 320px;
   }
-}
+} 
+@media only screen and (max-width: 675px){
+  /*Small smartphones 675 [325px -> 425px]*/
+     .services{
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px;
+    }
+  } 
 
 .footer {
   display: flex;
@@ -418,7 +490,7 @@ border-radius: 5px;
   border-top: 5px solid gray;
   background: black;
   min-height:35px;
-  width: 100vw;
+  min-width: 100vw;
   position: fixed;
   bottom: 0;
   margin-top: 0px;
@@ -451,10 +523,15 @@ border-radius: 5px;
 @media only screen and (max-width: 751px){
 /*Small smartphones [325px -> 425px]*/
   .aboutUs{
-
     margin-top: 300px;
   }
 }
+@media only screen and (max-width: 675px){
+  /*Small smartphones 675 [325px -> 425px]*/
+     .aboutUs{
+      margin-top: 0px;
+    }
+  } 
 .aboutContent{
   margin-right: 20px;
   background:rgb(0, 0, 0), rgb(0, 0, 0);
@@ -468,6 +545,13 @@ p {
 .contact {
   margin-left: 20px;
   margin-bottom: 60px;
+}
+@media only screen and (max-width: 675px){
+  /*Small smartphones [325px -> 425px]*/
+  .contact {
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
 }
 .contacts {
   display: flex;
