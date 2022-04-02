@@ -1,9 +1,10 @@
 import React from 'react';
-import logo from '../../images/ms-co-bg.png';
 import { Link } from 'react-router-dom';
 
 
+
 function Content() {
+    
     return (
         // <main className='contentDiv'>
         <div className='services'>
