@@ -183,7 +183,7 @@ border-style: groove;
 border-color: white;
 border-radius: 5px;
 }
-.contents1:hover {
+.contents1:active {
   background-image: url('./images/photography-bg.jpg');
   opacity: 1;
   background-size: cover;
@@ -203,7 +203,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents2:hover {
+.contents2:active {
   background-image: url('./images/homeImprovement1.png');
   opacity: 1;
   background-size: cover;
@@ -223,7 +223,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents3:hover {
+.contents3:active {
   background-image: url('./images/AutoEngineering.png');
   opacity: 1;
   background-size: cover;
@@ -243,7 +243,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents4:hover {
+.contents4:active {
   background-image: url('./images/responsive-web-design.png');
   opacity: 1;
   background-size: cover;
@@ -263,7 +263,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents5:hover {
+.contents5:active {
   background-image: url('./images/GraphicDesign.png');
   opacity: 1;
   background-size: cover;
@@ -283,7 +283,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents6:hover {
+.contents6:active {
   background-image: url('./images/videography.png');
   opacity: 1;
   background-size: cover;
@@ -303,7 +303,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents7:hover {
+.contents7:active {
   background-image: url('./images/e.png');
   opacity: 1;
   background-size: cover;
@@ -323,7 +323,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents8:hover {
+.contents8:active {
   background-image: url('./images/alltypesofflooring.png');
   opacity: 1;
   background-size: cover;
@@ -343,7 +343,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents9:hover {
+.contents9:active {
   background-image: url('./images/painting.png');
   opacity: 1;
   background-size: cover;
@@ -363,7 +363,7 @@ border-radius: 5px;
   border-color: white;
   border-radius: 5px;
 }
-.contents10:hover {
+.contents10:active {
   background-image: url('./images/financialservices.png');
   opacity: 1;
   background-size: cover;
@@ -384,7 +384,7 @@ border-radius: 5px;
   border-radius: 5px;
   margin-bottom: 30px;
 }
-.contents11:hover {
+.contents11:active {
   background-image: url('./images/Plumbing.png');
   opacity: 1;
   background-size: cover;
